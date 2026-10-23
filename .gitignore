@@ -1,0 +1,15 @@
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+*.dtbo
+*.order
+Module.symvers
+.tmp_versions/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated MIPI DBI firmware; keep the command source instead.
+/firmware/panel.bin
