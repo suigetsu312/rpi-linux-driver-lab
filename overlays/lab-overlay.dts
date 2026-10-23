@@ -1,0 +1,16 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+	fragment@ {
+		target-path = "/";
+
+		__overlay__ {
+			lab-test {
+				compatible = "example,rpi5-dt-lab";
+				status = "okay";
+				lab-message = "hello-device-tree";
+			};
+		};
+	};
+};
