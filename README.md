@@ -1,4 +1,6 @@
-# Linux Driver 與 Device Model 學習實驗
+# Raspberry Pi Linux Driver Lab
+
+Linux 驅動開發與 Device Model 實驗
 
 這個專案主要用來練習寫 Linux driver，並透過 Raspberry Pi 上的實驗認識 Linux device model。
 內容涵蓋 Device Tree、platform driver、ILI9341 SPI 顯示與 SPI 觸控。
