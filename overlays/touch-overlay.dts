@@ -1,0 +1,24 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    fragment@0 {
+        target= <&spi0>;
+
+        __overlay__ {
+            #address-cells = <1>;
+            #size-cells = <0>;
+
+            spidev@1 {
+                compatible = "learning,spi-touch";
+                reg = <1>;
+                spi-max-frequency = <500000>;
+
+                interrupt-parent = <&gpio>;
+                interrupts = <4 2>;
+                                status = "okay";
+
+            };
+        };
+    };
+};
